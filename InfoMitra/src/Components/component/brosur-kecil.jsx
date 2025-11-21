@@ -10,7 +10,7 @@ export function BrosurKecil(){
             </div> 
             <div className="grid my-5 grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-5 mx-17 h-screen overflow-y-scroll">
                 {brosurKecilList.map((brosur) => (
-                    <div key={brosur.id} className="bg-amber-200 border-3">
+                    <div key={brosur.id} className="bg-amber-200 border-3 transition-all duration-300 hover:-translate-y-2">
                         <img src={brosur.gambar} alt={`Brosur ${brosur.id}`}/>
                     </div>
                 ))}
