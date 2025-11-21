@@ -14,11 +14,6 @@ export function GaleriIklan() {
             {/* Main kontent */}
             <div className="main_brosur overflow-x-hidden" id="main_brosur">
                 <BrosurVip />
-                
-                <div className="klik" id="klik">
-                    <img src={sebelum} alt="sebelum" id="sebelum"/>
-                    <img src={sesudah} alt="sesudah" id="sesudah"/>
-                </div>
             </div>
             {/* Akhir Main Kontent */}
  
@@ -29,7 +24,7 @@ export function GaleriIklan() {
             {/* Akhir Brosur kecil */}
 
             {/* Komentar Pengguna */}
-            <div className="bg-[#ececec] py-5">
+            <div className="bg-[#ffffff] py-5">
                 <KomentarBox />
             </div>
             {/* Akhir Komentar Pengguna */}
